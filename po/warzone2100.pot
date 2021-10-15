@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: warzone2100\n"
 "Report-Msgid-Bugs-To: warzone2100-project@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-10-09 04:03+0000\n"
+"POT-Creation-Date: 2021-10-15 19:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5764,42 +5764,42 @@ msgstr ""
 msgid "System locale"
 msgstr ""
 
-#: lib/netplay/netplay.cpp:1346
+#: lib/netplay/netplay.cpp:1349
 #, c-format
 msgid "Could not open required port (%s) on  (%s)"
 msgstr ""
 
-#: lib/netplay/netplay.cpp:1350
+#: lib/netplay/netplay.cpp:1353
 msgid ""
 "You must manually configure your router & firewall to\n"
 " open port 2100 before you can host a game."
 msgstr ""
 
-#: lib/netplay/netplay.cpp:1360
+#: lib/netplay/netplay.cpp:1363
 #, c-format
 msgid ""
 "Game configured port (%s) correctly on (%s)\n"
 "Your external IP is %s"
 msgstr ""
 
-#: lib/netplay/netplay.cpp:2042
+#: lib/netplay/netplay.cpp:2045
 msgid "Client failed to ack player index swap"
 msgstr ""
 
-#: lib/netplay/netplay.cpp:2053
+#: lib/netplay/netplay.cpp:2056
 msgid "Message delivery failure - try again"
 msgstr ""
 
-#: lib/netplay/netplay.cpp:2647
+#: lib/netplay/netplay.cpp:2650
 msgid "No UPnP device found. Configure your router/firewall to open port 2100!"
 msgstr ""
 
-#: lib/netplay/netplay.cpp:3261
+#: lib/netplay/netplay.cpp:3267
 #, c-format
 msgid "Could not resolve masterserver name (%s)!"
 msgstr ""
 
-#: lib/netplay/netplay.cpp:3286
+#: lib/netplay/netplay.cpp:3292
 #, c-format
 msgid ""
 "Error connecting to the lobby server: %s.\n"
@@ -5808,8 +5808,21 @@ msgid ""
 " or to forward the port to your system."
 msgstr ""
 
-#: lib/netplay/netplay.cpp:4180
+#: lib/netplay/netplay.cpp:4186
 msgid "Failed to get a lobby response!"
+msgstr ""
+
+#: lib/netplay/netreplay.cpp:257
+msgid "The replay file format is newer than this version of Warzone 2100 can support."
+msgstr ""
+
+#: lib/netplay/netreplay.cpp:259
+#, c-format
+msgid "Replay Format Version: %u"
+msgstr ""
+
+#: lib/netplay/netreplay.cpp:260
+msgid "Replay File Format Unsupported"
 msgstr ""
 
 #: lib/sound/cdaudio.cpp:61
@@ -15346,46 +15359,46 @@ msgstr ""
 msgid "%s Lost!"
 msgstr ""
 
-#: src/droid.cpp:1158
+#: src/droid.cpp:1157
 msgid "Structure Restored"
 msgstr ""
 
-#: src/droid.cpp:1972
+#: src/droid.cpp:1971
 #, c-format
 msgid "Group %u selected - %u Unit"
 msgid_plural "Group %u selected - %u Units"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/droid.cpp:1981
+#: src/droid.cpp:1980
 #, c-format
 msgid "%u unit assigned to Group %u"
 msgid_plural "%u units assigned to Group %u"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/droid.cpp:1992
+#: src/droid.cpp:1991
 #, c-format
 msgid "%u units removed from their Group"
 msgid_plural "%u units removed from their Group"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/droid.cpp:2002
+#: src/droid.cpp:2001
 #, c-format
 msgid "Centered on Group %u - %u Unit"
 msgid_plural "Centered on Group %u - %u Units"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/droid.cpp:2006
+#: src/droid.cpp:2005
 #, c-format
 msgid "Aligning with Group %u - %u Unit"
 msgid_plural "Aligning with Group %u - %u Units"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/droid.cpp:3082
+#: src/droid.cpp:3081
 msgid "Unit transfer failed -- unit limits exceeded"
 msgstr ""
 
@@ -16249,7 +16262,7 @@ msgstr ""
 msgid "Save Skirmish Game"
 msgstr ""
 
-#: src/init.cpp:497
+#: src/init.cpp:498
 #, c-format
 msgid ""
 "The required mod could not be loaded: %s\n"
@@ -18279,29 +18292,29 @@ msgstr ""
 msgid "Ping"
 msgstr ""
 
-#: src/multiint.cpp:8107
+#: src/multiint.cpp:8113
 msgid "The version of Warzone 2100 used to save this replay file does not match the currently-running version."
 msgstr ""
 
-#: src/multiint.cpp:8109
+#: src/multiint.cpp:8115
 #, c-format
 msgid "Replay File Saved With: \"%s\""
 msgstr ""
 
-#: src/multiint.cpp:8111
+#: src/multiint.cpp:8119
 #, c-format
 msgid "Current Warzone 2100 Version: \"%s\""
 msgstr ""
 
-#: src/multiint.cpp:8113
+#: src/multiint.cpp:8129
 msgid "Replays should usually be played back with the same version used to save the replay."
 msgstr ""
 
-#: src/multiint.cpp:8115
+#: src/multiint.cpp:8131
 msgid "The replay may not playback successfully, or there may be differences in the simulation."
 msgstr ""
 
-#: src/multiint.cpp:8116
+#: src/multiint.cpp:8132
 msgid "Replay Version Mismatch"
 msgstr ""
 
@@ -18801,86 +18814,86 @@ msgstr ""
 msgid "(Tanks / Cyborgs)"
 msgstr ""
 
-#: src/structure.cpp:2538
+#: src/structure.cpp:2552
 msgid "Can't build any more units, Unit Limit Reached — Production Halted"
 msgstr ""
 
-#: src/structure.cpp:2546
+#: src/structure.cpp:2560
 #, c-format
 msgid "Can't build \"%s\" without a Command Relay Center — Production Halted"
 msgstr ""
 
-#: src/structure.cpp:2551
+#: src/structure.cpp:2565
 #, c-format
 msgid "Can't build \"%s\", Commander Limit Reached — Production Halted"
 msgstr ""
 
-#: src/structure.cpp:2559
+#: src/structure.cpp:2573
 #, c-format
 msgid "Can't build any more \"%s\", Construction Unit Limit Reached — Production Halted"
 msgstr ""
 
-#: src/structure.cpp:5273
+#: src/structure.cpp:5297
 #, c-format
 msgid "%s - %u Unit assigned - Hitpoints %d/%d"
 msgid_plural "%s - %u Units assigned - Hitpoints %d/%d"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/structure.cpp:5292
+#: src/structure.cpp:5316
 #, c-format
 msgid "%s - %u Unit assigned - Damage %d/%d"
 msgid_plural "%s - %u Units assigned - Hitpoints %d/%d"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/structure.cpp:5297
-#: src/structure.cpp:5307
-#: src/structure.cpp:5314
-#: src/structure.cpp:5340
-#: src/structure.cpp:5349
-#: src/structure.cpp:5356
+#: src/structure.cpp:5321
+#: src/structure.cpp:5331
+#: src/structure.cpp:5338
 #: src/structure.cpp:5364
+#: src/structure.cpp:5373
+#: src/structure.cpp:5380
+#: src/structure.cpp:5388
 #, c-format
 msgid "%s - Hitpoints %d/%d"
 msgstr ""
 
-#: src/structure.cpp:5330
+#: src/structure.cpp:5354
 #, c-format
 msgid "%s - Connected %u of %u - Hitpoints %d/%d"
 msgstr ""
 
-#: src/structure.cpp:5485
-#: src/structure.cpp:5530
+#: src/structure.cpp:5509
+#: src/structure.cpp:5554
 #, c-format
 msgid "%s - Electronically Damaged"
 msgstr ""
 
-#: src/structure.cpp:5657
+#: src/structure.cpp:5681
 msgid "Electronic Reward - Visibility Report"
 msgstr ""
 
-#: src/structure.cpp:5699
+#: src/structure.cpp:5723
 msgid "Factory Reward - Propulsion"
 msgstr ""
 
-#: src/structure.cpp:5721
+#: src/structure.cpp:5745
 msgid "Factory Reward - Body"
 msgstr ""
 
-#: src/structure.cpp:5743
+#: src/structure.cpp:5767
 msgid "Factory Reward - Weapon"
 msgstr ""
 
-#: src/structure.cpp:5751
+#: src/structure.cpp:5775
 msgid "Factory Reward - Nothing"
 msgstr ""
 
-#: src/structure.cpp:5781
+#: src/structure.cpp:5805
 msgid "Repair Facility Award - Repair"
 msgstr ""
 
-#: src/structure.cpp:5787
+#: src/structure.cpp:5811
 msgid "Repair Facility Award - Nothing"
 msgstr ""
 
